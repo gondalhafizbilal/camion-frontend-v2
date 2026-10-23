@@ -1,0 +1,7 @@
+{
+  email support@camiontrading.com
+}
+
+{$SITE_HOST}, www.{$SITE_HOST} {
+  reverse_proxy web:3000
+}
